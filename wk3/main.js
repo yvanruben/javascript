@@ -1,10 +1,5 @@
 //------------------EXERCISE 1
 
-// const moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-// console.log[moreFruits [1][1],[0]];
-
-
-
 let breakfast = "bread";
 console.log('I eat ' + breakfast+ ' every morning');
 
