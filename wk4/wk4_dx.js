@@ -16,9 +16,3 @@ for (let count=0; count < value; count++){
 }
    
 
-// while (value<=6){
-//       if value {}
-//     console.log(star);
-//     value++;
-    
-// }
