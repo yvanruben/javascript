@@ -1,0 +1,112 @@
+.container {
+	max-width: 900px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+body{background-color: #6556CD;
+background-image: url('img/circuit-pattern.png');
+font-size:1rem;}
+
+
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.2em;
+	border-radius: 5px;
+    border:none;
+	
+}
+
+
+.nav-fixed{
+    position:sticky;
+    top:0;
+    background-color:#68D984;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.cards-container {
+	display: grid;
+    grid-template-columns: auto auto auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    z-index: -1;
+}
+
+.card {
+	width: calc(100% - 10px);
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	transition: all 0.3s ease;
+    background: #4EBBC1;
+    background-image:url('img/card-pattern.png');
+    
+    
+}
+
+
+.card img {
+	max-width: 100%;
+    border-radius: 50%;
+     overflow: hidden;
+     background: #fff;
+     
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.logo{font-family: 'SEGA LOGO FONT', sans-serif;
+font-size:1.5rem;}
+
+@media (max-width:600px){
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: auto ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media (min-width:650px) and (max-width:1100px){
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+}
